@@ -1,32 +1,140 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-image: url(img/bg3.png);
 }
 
-header{
-    display: flex;
-    justify-content: center;
-}
-
-header img{
-    height: 10vh;
-}
 h1 {
-    color: mediumseagreen;
+    color: rgb(167, 199, 141);
     text-align: center;
-    
+    margin-top: 100px; 
+    font-family: Akaya Kanadaka, sans-serif;
 }
 
 h2{
+    color: rgb(167, 199, 141);
+    font-size: large;
     text-align: center;
+    margin-top: 100px;
+    font-size: x-large;
+    font-family: Akaya Kanadaka,sans-serif;
+}
+
+h3{
+    color: rgb(167, 199, 141);
+    font-size: small;
+    font-family: Akaya Kanadaka,sans-serif;
 }
 
 p {
+    color: rgb(167, 199, 141);
     font-size: small;
-    text-align: left;
+    text-align: center;
+    background-color: rgb(70, 57, 78);
+    font-family: Akaya Kanadaka, sans-serif;
+}
+
+.poes{
+    height: 50vh;
+    width: 50vh;
+    display: block;
+    margin: auto;
+}
+
+main img{
+    text-align: center;
+    height: 50vh;
+    margin: auto;
+    display: block;
+}
+
+iframe{
+    height: 40vh;
+    width: 50vh;
+    display: block;
+    margin: auto;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 40px;
+    background-color: rgb(70, 57, 78);
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+}
+
+a:link,a:visited,a:hover,a:active{
+    text-decoration: none;
+    color: rgb(167, 199, 141);
+    margin-top: 10px;
+    font-family: Akaya Kanadaka,sans-serif;
+}
+
+.store{
+    height: 50vh;
+    display: block;
+    margin: auto;
+}
+
+.centrum{
+    height: 25vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.zuid{
+    height: 25vh;
+    width: 20vh;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+ol{
+    color: rgb(167, 199, 141);
+    background-color: rgb(70, 57, 78);
+    list-style: none;
+    font-family:Akaya Kanadaka,sans-serif ;
+}
+
+.contact{
+    display: flex;
+}
+
+.producten{
+    height: 10vh;
+    width: 10vh;
+    margin-left: 2px;
     
 }
 
-.narrow-column
-{
-    width: 12em;
+.winkel{
+    height: 35vh;
+    width: 35vh;
+}
+
+.poster{
+    height: 35vh;
+    width: 40vh;
+    margin-left: 105px;
+}
+
+.binnen{
+    height: 50vh;
+    width: 50vh;
+    margin-left: 17px;
+}
+
+.logoo{
+    height: 30px;
+    width: 30px;
+    margin-left: 360px;
 }
